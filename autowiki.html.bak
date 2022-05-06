@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+			
+			<title>Car Wiki</title>
+			<link rel="stylesheet" href="style.css" type="text/css">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+			<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+			<script type= "text/javascript">
+								$(document).ready(function() {
+					$('.menubutton').click(fuction() {
+						$('nav').slideToggle('slow');
+					});
+				});		
+			<script defer src="https://use.fontawesome.com/releases/v5.0.5/js/all.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+			</script>	
+	</head>
+	
+	<body>
+		<section id="menubar">
+			<ul>
+				<li><a class="menubutton" href ="#menu"><img src="images/menu.png" /></a></li>
+			</ul>
+		</section>
+		<header>
+			<h1>Car Wiki</h1>	
+			<img class="img-fit" src="images/logo1.png" width="947" height="480" alt="…">
+		</header>
+		<nav class="nav">
+			<ul>
+				<li><a href="autowiki.html" class="active">Home</a></li>
+				<li><a href="About us.html" >about us</a></li>
+				<li><a href="autowiki.html" >xyz2</a></li>
+				<li><a href="autowiki.html" >xyz3</a></li>
+				<li><a href="autowiki.html" >xyz4</a></li>
+			</ul>
+		</nav>
+		<div class="search-box">
+            <input class="search-txt" type="text" name="" placeholder="Type to search">
+            <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+		<section id="main">
+			<article>
+				<h2> Das ist ein Artikel</h2>
+				<p>Halli hallo</p>
+				<p> ja ja </p>
+				<p> xyz</p>	
+				<img
+			</article> 
+			<aside>
+				<section>
+					<h2>Weitere Artikel</h2>
+					<ul>
+						<li> ja ja1 </li>
+						<li> jaja</li>
+						<li> like</li>
+					</ul>
+				</section>
+				<section>
+					<h2> Ein Textfeld </h2>
+					<p> oafjasdojaj </p>
+				</section>
+				
+				<section>
+					<ul>
+						<li> HTML TUT</li>
+					</ul>
+				</section>
+			</aside>
+		</section>
+		<footer>
+			<ul>
+				<li><a href="autowiki.html" class="active">&copy; 2022 Car Wiki</a></li>
+				<li><a href="datenschutzetc/impressum.html"class="active">Impressum</a></li>
+				<li><a href="datenschutzetc/datenschutz.html"class="active">Datenschutz</a></li>
+				<li><a href="datenschutzetc/Kontakt.html"class="active">Kontakt</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
