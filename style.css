@@ -17,10 +17,10 @@ h1{
 	margin: 0px;
 }
 .img-fit {
-	width: 13%;
-	object-fit: cover;
-	height: autopx; 
-	margin: -43px;;
+    object-fit: cover;
+	margin-top: 20px;
+	width: 20%;
+
 }
 h2 {
 	
@@ -259,8 +259,8 @@ header{
 }
 /*Navigation*/
 nav{
+	margin-top: -50px;
 	position: sticky;
-	top: 0;
 	font-weight: 500;
 	z-index: 99;
 	display:block;
